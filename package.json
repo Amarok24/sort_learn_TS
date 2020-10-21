@@ -1,0 +1,19 @@
+{
+  "name": "sort_learn_ts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "go:build": "tsc -w",
+    "go:run": "nodemon build/index.js",
+    "start": "concurrently npm:go:*"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "The Unlicense",
+  "dependencies": {
+    "concurrently": "^5.3.0",
+    "nodemon": "^2.0.5"
+  }
+}
